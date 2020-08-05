@@ -1,0 +1,69 @@
+{
+  "name": "eslint-config-ts-guard",
+  "version": "1.0.0",
+  "description": "ESLint configuration files (shareable configs) to guard from problems in different areas of JavaScript and TypeScript development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gamtiq/eslint-config-ts-guard.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "shareable",
+    "config",
+    "configuration",
+    "setting",
+    "settings",
+    "guard",
+    "protect",
+    "prevent",
+    "validate",
+    "verify",
+    "enforce",
+    "strict",
+    "code",
+    "quality",
+    "policy",
+    "lint",
+    "linter",
+    "check",
+    "checker",
+    "hint",
+    "simple",
+    "es6",
+    "es2015",
+    "esnext",
+    "typescript",
+    "ts",
+    "proper-arrows",
+    "react",
+    "node",
+    "nodejs",
+    "style",
+    "styleguide",
+    "optimum",
+    "editor",
+    "jsdoc",
+    "test",
+    "jest",
+    "mocha"
+  ],
+  "author": "Denis Sikuler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gamtiq/eslint-config-ts-guard/issues"
+  },
+  "homepage": "https://github.com/gamtiq/eslint-config-ts-guard#readme",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "eslint": "^7.3.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^3.7.0",
+    "eslint-config-guard": "^2.0.1"
+  }
+}
