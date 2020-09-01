@@ -32,6 +32,7 @@ module.exports = {
                 "minimumDescriptionLength": 5
             }
         ],
+        "@typescript-eslint/consistent-type-imports": "warn",
         "@typescript-eslint/no-confusing-non-null-assertion": "error",
         "@typescript-eslint/explicit-module-boundary-types": "error",
         "@typescript-eslint/member-ordering": [
@@ -108,9 +109,16 @@ module.exports = {
                 "allowWithDecorator": true
             }
         ],
+        "@typescript-eslint/no-implicit-any-catch": [
+            "error",
+            {
+                "allowExplicitAny": true
+            }
+        ],
         "@typescript-eslint/no-non-null-asserted-optional-chain": "error",
         "@typescript-eslint/no-require-imports": "error",
         "@typescript-eslint/prefer-as-const": "error",
+        "@typescript-eslint/prefer-enum-initializers": "error",
         "@typescript-eslint/prefer-function-type": "error",
         "@typescript-eslint/prefer-literal-enum-member": "error",
         "@typescript-eslint/prefer-optional-chain": "error",
