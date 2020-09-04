@@ -32,7 +32,7 @@ module.exports = {
                 "minimumDescriptionLength": 5
             }
         ],
-        "@typescript-eslint/consistent-type-imports": "warn",
+        "@typescript-eslint/consistent-type-imports": "off",
         "@typescript-eslint/no-confusing-non-null-assertion": "error",
         "@typescript-eslint/explicit-module-boundary-types": "error",
         "@typescript-eslint/member-ordering": [
