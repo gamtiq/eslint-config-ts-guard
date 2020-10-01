@@ -84,7 +84,8 @@ module.exports = {
             },
             {
                 "selector": "property",
-                "format": ["camelCase", "snake_case", "UPPER_CASE"]
+                "format": ["camelCase", "snake_case", "UPPER_CASE"],
+                "leadingUnderscore": "allow"
             },
             {
                 // Ignore property names that require quoting
@@ -129,6 +130,9 @@ module.exports = {
         "brace-style": "off",
         "@typescript-eslint/brace-style": styleConfigRules["brace-style"],
 
+        "comma-dangle": "off",
+        "@typescript-eslint/comma-dangle": styleConfigRules["comma-dangle"],
+      
         "comma-spacing": "off",
         "@typescript-eslint/comma-spacing": styleConfigRules["comma-spacing"],
 
@@ -150,6 +154,9 @@ module.exports = {
         "no-extra-semi": "off",
         "@typescript-eslint/no-extra-semi": "error",
 
+        "no-loop-func": "off",
+        "@typescript-eslint/no-loop-func": "error",
+      
         "no-loss-of-precision": "off",
         "@typescript-eslint/no-loss-of-precision": "error",
       
