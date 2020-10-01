@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.2.0] - 2020-10-01
+### Added
+- New extension rules: [@typescript-eslint/comma-dangle](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/comma-dangle.md) and [@typescript-eslint/no-loop-func](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-loop-func.md).
+
+### Changed
+- Allow leading underscore for properties (modified options for [@typescript-eslint/naming-convention](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md)).
+
 ## [1.1.1] - 2020-09-04
 ### Changed
 - Temporarily switch off [@typescript-eslint/consistent-type-imports](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/consistent-type-imports.md) because of conflict with `no-duplicate-imports` (see [typescript-eslint #2315](https://github.com/typescript-eslint/typescript-eslint/issues/2315)).
