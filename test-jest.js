@@ -1,1 +1,6 @@
-module.exports = require("eslint-config-guard/test-jest");
+module.exports = {
+    "extends": [
+        "guard/test-jest",
+        "ts-guard/test"
+    ]
+};

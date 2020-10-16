@@ -145,14 +145,23 @@ module.exports = {
         "indent": "off",
         "@typescript-eslint/indent": indentConfigRules.indent,
 
+        "keyword-spacing": "off",
+        "@typescript-eslint/keyword-spacing": styleConfigRules["keyword-spacing"],
+
         "no-array-constructor": "off",
         "@typescript-eslint/no-array-constructor": styleConfigRules["no-array-constructor"],
 
         "no-dupe-class-members": "off",
         "@typescript-eslint/no-dupe-class-members": "error",
 
+        "no-duplicate-imports": "off",
+        "@typescript-eslint/no-duplicate-imports": esnextConfigRules["no-duplicate-imports"],
+
         "no-extra-semi": "off",
         "@typescript-eslint/no-extra-semi": "error",
+
+        "no-invalid-this": "off",
+        "@typescript-eslint/no-invalid-this": mainConfigRules["no-invalid-this"],
 
         "no-loop-func": "off",
         "@typescript-eslint/no-loop-func": "error",
@@ -172,6 +181,12 @@ module.exports = {
                 noMagicNumberRule[1]
             )
         ],
+
+        "no-redeclare": "off",
+        "@typescript-eslint/no-redeclare": "error",
+
+        "no-shadow": "off",
+        "@typescript-eslint/no-shadow": mainConfigRules["no-shadow"],
 
         "no-unused-expressions": "off",
         "@typescript-eslint/no-unused-expressions": mainConfigRules["no-unused-expressions"],

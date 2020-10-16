@@ -1,1 +1,6 @@
-module.exports = require("eslint-config-guard/test-mocha");
+module.exports = {
+    "extends": [
+        "guard/test-mocha",
+        "ts-guard/test"
+    ]
+};

@@ -1,3 +1,5 @@
+const mainConfigRules = require("./guard").rules;
+
 module.exports = {
     "extends": [
         "ts-guard",
@@ -19,6 +21,11 @@ module.exports = {
             {
                 "checkCompoundAssignments": true
             }
-        ]
+        ],
+
+        // Extension Rules
+
+        "dot-notation": "off",
+        "@typescript-eslint/dot-notation": mainConfigRules['dot-notation']
     }
 };
