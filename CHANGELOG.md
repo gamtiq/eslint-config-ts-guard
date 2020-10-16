@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.3.0] - 2020-10-16
+### Added
+- Several [extension rules](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin#extension-rules).
+
+### Changed
+- Implementation of test config files.
+
 ## [1.2.0] - 2020-10-01
 ### Added
 - New extension rules: [@typescript-eslint/comma-dangle](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/comma-dangle.md) and [@typescript-eslint/no-loop-func](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-loop-func.md).

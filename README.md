@@ -10,6 +10,9 @@ Includes:
 * `ts-guard` - configuration for TypeScript-related rules; extends [`guard/optimum-next`](https://github.com/gamtiq/eslint-config-guard#eslint-config-guard) and [`plugin:@typescript-eslint/recommended`](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin);
 * `ts-guard/ext` - configuration for TypeScript-related type-aware rules; extends `ts-guard` and [`plugin:@typescript-eslint/recommended-requiring-type-checking`](https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/TYPED_LINTING.md);
   to use the configuration you should specify `parserOptions.project` in ESLint config file (see [details](https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/TYPED_LINTING.md)).
+* `ts-guard/test` - appropriate for use in tests (relaxes some rules from other configs); extends [`guard/test`](https://github.com/gamtiq/eslint-config-guard#eslint-config-guard);
+* `ts-guard/test-jest` - appropriate for use in [Jest](https://jestjs.io/) tests; extends `ts-guard/test` and [`guard/test-jest`](https://github.com/gamtiq/eslint-config-guard#eslint-config-guard);
+* `ts-guard/test-mocha` - appropriate for use in [Mocha](https://mochajs.org/) tests; extends `ts-guard/test` and [`guard/test-mocha`](https://github.com/gamtiq/eslint-config-guard#eslint-config-guard).
 
 The following files re-export corresponding configs from [eslint-config-guard](https://github.com/gamtiq/eslint-config-guard#eslint-config-guard):
 
@@ -25,10 +28,7 @@ The following files re-export corresponding configs from [eslint-config-guard](h
 * `ts-guard/optimum-next` - re-exports [`guard/optimum-next`](https://github.com/gamtiq/eslint-config-guard#eslint-config-guard);
 * `ts-guard/proper-arrows` - re-exports [`guard/proper-arrows`](https://github.com/gamtiq/eslint-config-guard#eslint-config-guard);
 * `ts-guard/react` - re-exports [`guard/react`](https://github.com/gamtiq/eslint-config-guard#eslint-config-guard);
-* `ts-guard/style` - re-exports [`guard/style`](https://github.com/gamtiq/eslint-config-guard#eslint-config-guard);
-* `ts-guard/test` - re-exports [`guard/test`](https://github.com/gamtiq/eslint-config-guard#eslint-config-guard);
-* `ts-guard/test-jest` - re-exports [`guard/test-jest`](https://github.com/gamtiq/eslint-config-guard#eslint-config-guard);
-* `ts-guard/test-mocha` - re-exports [`guard/test-mocha`](https://github.com/gamtiq/eslint-config-guard#eslint-config-guard);
+* `ts-guard/style` - re-exports [`guard/style`](https://github.com/gamtiq/eslint-config-guard#eslint-config-guard).
 
 ## Installation
 
