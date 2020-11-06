@@ -16,12 +16,6 @@ module.exports = {
         "plugin:@typescript-eslint/recommended"
     ],
     "rules": {
-        "@typescript-eslint/array-type": [
-            "error",
-            {
-                "default": "array-simple"
-            }
-        ],
         "@typescript-eslint/ban-ts-comment": [
             "error",
             {
@@ -118,6 +112,7 @@ module.exports = {
         ],
         "@typescript-eslint/no-non-null-asserted-optional-chain": "error",
         "@typescript-eslint/no-require-imports": "error",
+        "@typescript-eslint/no-unnecessary-type-constraint": "warn",
         "@typescript-eslint/prefer-as-const": "error",
         "@typescript-eslint/prefer-enum-initializers": "error",
         "@typescript-eslint/prefer-function-type": "error",
@@ -207,6 +202,9 @@ module.exports = {
         "@typescript-eslint/semi": styleConfigRules.semi,
 
         "space-before-function-paren": "off",
-        "@typescript-eslint/space-before-function-paren": styleConfigRules["space-before-function-paren"]
+        "@typescript-eslint/space-before-function-paren": styleConfigRules["space-before-function-paren"],
+
+        "space-infix-ops": "off",
+        "@typescript-eslint/space-infix-ops": styleConfigRules["space-infix-ops"]
     }
 };
