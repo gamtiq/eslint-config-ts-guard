@@ -8,8 +8,8 @@ Extends [eslint-config-guard](https://github.com/gamtiq/eslint-config-guard).
 Includes:
 
 * `ts-guard` - configuration for TypeScript-related rules; extends [`guard/optimum-next`](https://github.com/gamtiq/eslint-config-guard#eslint-config-guard) and [`plugin:@typescript-eslint/recommended`](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin);
-* `ts-guard/ext` - configuration for TypeScript-related type-aware rules; extends `ts-guard` and [`plugin:@typescript-eslint/recommended-requiring-type-checking`](https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/TYPED_LINTING.md);
-  to use the configuration you should specify `parserOptions.project` in ESLint config file (see [details](https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/TYPED_LINTING.md)).
+* `ts-guard/ext` - configuration for TypeScript-related type-aware rules; extends `ts-guard` and [`plugin:@typescript-eslint/recommended-requiring-type-checking`](https://typescript-eslint.io/docs/linting/type-linting/);
+  to use the configuration you should specify `parserOptions.project` in ESLint config file (see [details](https://typescript-eslint.io/docs/linting/type-linting/)).
 * `ts-guard/test` - appropriate for use in tests (relaxes some rules from other configs); extends [`guard/test`](https://github.com/gamtiq/eslint-config-guard#eslint-config-guard);
 * `ts-guard/test-jest` - appropriate for use in [Jest](https://jestjs.io/) tests; extends `ts-guard/test` and [`guard/test-jest`](https://github.com/gamtiq/eslint-config-guard#eslint-config-guard);
 * `ts-guard/test-mocha` - appropriate for use in [Mocha](https://mochajs.org/) tests; extends `ts-guard/test` and [`guard/test-mocha`](https://github.com/gamtiq/eslint-config-guard#eslint-config-guard).
@@ -76,5 +76,5 @@ In a `package.json`:
 ```
 
 ## License
-Copyright (c) 2020-2021 Denis Sikuler  
+Copyright (c) 2020-2022 Denis Sikuler  
 Licensed under the MIT license.
